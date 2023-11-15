@@ -2,9 +2,9 @@
   <div>
     <h1>Services</h1>
     <MultiBlock>
-      <BaseButton to="/services/management">Project Management</BaseButton>
-      <BaseButton to="/services/programming">Industrial Programming</BaseButton>
-      <BaseButton to="/services/processes">Business Processes</BaseButton>
+      <BaseButton to="/services/project-management">Project Management</BaseButton>
+      <BaseButton to="/services/business-processes">Business Processes</BaseButton>
+      <BaseButton to="/services/industrial-programming">Industrial Programming</BaseButton>
     </MultiBlock>
     <NuxtPage />
   </div>
