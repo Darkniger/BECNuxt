@@ -1,5 +1,5 @@
 <template>
-  <UButton v-bind="$attrs" v-on="$listeners">
+  <UButton>
     <slot />
   </UButton>
 </template>

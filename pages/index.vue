@@ -10,7 +10,7 @@
     </section>
     <section id="services">
       <pre>This is the services section. </pre>
-      <TitleBlock title="Services" />
+      <h2>Services</h2>
       <NuxtImg class="mx-auto" src="https://picsum.photos/300/200" />
       <MultiBlock>
         <Card title="title" description="description" cta="cta" />

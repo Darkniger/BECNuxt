@@ -5,7 +5,7 @@
       <img src="https://via.placeholder.com/150" alt="Logo" />
       <nav class="flex flex-col">
         <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="/services/project-management">Services</a>
         <a href="#">Contact</a>
       </nav>
     </header>
