@@ -3,6 +3,6 @@ export default defineNuxtConfig({
   ui: {
     global: true,
   },
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', "@nuxt/image"],
   devtools: { enabled: true }
 })
