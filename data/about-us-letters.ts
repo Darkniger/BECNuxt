@@ -2,82 +2,45 @@ import type { AboutUsLetter } from "~/types/AboutUsLetter";
 
 export const aboutUsLetters: AboutUsLetter[] = [
   {
-    letter: "A",
-    icon: "/images/letters/a.svg",
-    title: "A for Automation",
-    richtext: `
-      <p>
-        <strong>Automation</strong> is the technology by which a process or procedure is performed with minimal human assistance.
-        <br />
-        <br />
-        <strong>Automation</strong> or <strong>automatic control</strong> is the use of various control systems for operating equipment such as machinery, processes in factories, boilers and heat treating ovens, switching on telephone networks, steering, and stabilization of ships, aircraft, and other applications and vehicles with minimal or reduced human intervention.
-      </p>
-    `
+    letter: "S",
+    icon: "safety",
+    title: "SAFETY",
+    richtext: "With every project the safety of personnel should be priority. Programming is simulated and documented extensively-Safety programming will be made according to IEC61511 or IEC61508. An LMRA with every work is made on the work flow"
   },
   {
-    letter: "B",
-    icon: "/images/letters/b.svg",
-    title: "B for Business",
-    richtext: `
-      <p>
-        <strong>Business</strong> is the activity of making one's living or making money by producing or buying and selling products (such as goods and services).
-        <br />
-        <br />
-        <strong>Business</strong> is an organization or enterprising entity engaged in commercial, industrial, or professional activities. Businesses can be for-profit entities or non-profit organizations that operate to fulfill a charitable mission or further a social cause.
-      </p>
-    `
+    letter: "U",
+    icon: "uptime",
+    title: "UPTIME",
+    richtext: "Keeping the equipment in a good operation status is very important to you your installation for keeping your OEE high. All the environmental conditions are checked and documented. The OEE requirements of the equipment supplied is checked and complies to the application requirements. Maintenance sheets are provided.-Life cycle is given for all equipment."
   },
   {
     letter: "C",
-    icon: "/images/letters/c.svg",
-    title: "C for Control",
-    richtext: `
-      <p>
-        <strong>Control</strong> is the power to influence or direct people's behavior or the course of events.
-        <br />
-        <br />
-        <strong>Control</strong> is the ability to manage a machine, vehicle, or other moving object.
-      </p>
-    `
+    icon: "continuous_improvement",
+    title: "CONTINUOUS IMPROVEMENT",
+    richtext: "To keep up with competition continuous improvements are critical. Standard documents are set up and revisioned in periodic timeframe. Ask feedback, log it and take action. Follow up"
   },
   {
-    letter: "D",
-    icon: "/images/letters/d.svg",
-    title: "D for Development",
-    richtext: `
-      <p>
-        <strong>Development</strong> is the process of developing or being developed.
-        <br />
-        <br />
-        <strong>Development</strong> is the process of starting to experience or suffer from an ailment or feeling.
-      </p>
-    `
+    letter: "C",
+    icon: "communication",
+    title: "COMMUNICATION",
+    richtext: "As a pillar of our success, communication is a vital part of everything we do at BEC. Clear requirement and expectations documented. Regular updates-Total document with all information"
   },
   {
     letter: "E",
-    icon: "/images/letters/e.svg",
-    title: "E for Engineering",
-    richtext: `
-      <p>
-        <strong>Engineering</strong> is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings.
-        <br />
-        <br />
-        <strong>Engineering</strong> is the action of working artfully to bring something about.
-      </p>
-    `
+    icon: "environmental",
+    title: "ENVIRONMENTAL",
+    richtext: "BEC is committed to creating a sustainable future for businesses while minimizing our ecological footprint. Design automation systems that prioritize energy efficiency and environmental sustainability-Long lifespan of the installation. Documentation all electronically"
   },
   {
-    letter: "F",
-    icon: "/images/letters/f.svg",
-    title: "F for Factory",
-    richtext: `
-      <p>
-        A <strong>factory</strong> or <strong>manufacturing plant</strong> is an industrial site, usually consisting of buildings and machinery, or more
-        commonly a complex having several buildings, where workers manufacture goods or operate machines processing one product into another.
-        <br />
-        <br />
-        <strong>Factories</strong> arose with the introduction of machinery during the Industrial Revolution when the capital and space requirements became too great for cottage industry or workshops.
-      </p>
-    `
+    letter: "S",
+    icon: "support",
+    title: "SUPPORT",
+    richtext: "This is the backbone of our commitment to our clients success. Our support team is always ready to address your queries and offer timely solutions. We keep all your project files so you can always count on our support even after 10 years."
   },
+  {
+    letter: "S",
+    icon: "security",
+    title: "SECURITY",
+    richtext: "Security is paramount in industrial automation. A secure environment is checked or made for each application. Secure login will be for seen with ease of use."
+  }
 ]
