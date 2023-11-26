@@ -1,6 +1,8 @@
 <template>
-  <Card class="w-max" :title="title" :description="description" :cta="cta">
-    <NuxtImg #after-content :src="imageSrc" :alt="imageAlt" />
+  <Card class="card-block" :title="title" :description="description" :cta="cta">
+    <template #after-content>
+      <NuxtImg  :src="imageSrc" :alt="imageAlt" class="w-[100%]" />
+    </template>
   </Card>
 </template>
 
@@ -29,7 +31,9 @@ defineProps({
 })
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+.card-block {
+  width: 100%;
+}
 </style>
 

@@ -1,7 +1,9 @@
 <template>
   <div>
     <AppHeader />
-      <slot />
+      <main>
+        <slot />
+      </main>
     <AppFooter />
   </div>
 </template>
@@ -17,6 +19,11 @@ pre {
   background: #eee;
   border: 1px solid #ccc;
   margin: 1rem 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 div {
