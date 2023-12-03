@@ -1,5 +1,5 @@
 <template>
-  <UButton>
+  <UButton color="yellow">
     <slot />
   </UButton>
 </template>

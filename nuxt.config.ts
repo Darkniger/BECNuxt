@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   ui: {
     global: true,
+    icons: 'ic',
   },
   modules: ['@nuxt/ui', "@nuxt/image"],
   devtools: { enabled: true }
