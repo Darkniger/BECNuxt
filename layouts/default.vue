@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <AppHeader />
-      <main>
+      <main class="flex-grow">
         <slot />
       </main>
     <AppFooter />
@@ -13,35 +13,10 @@
 </script>
 
 <style>
-/* TEMP BLOCKS OVERVIEW STYLING */
-pre {
-  display: inline-block;
-  background: #eee;
-  border: 1px solid #ccc;
-  margin: 1rem 0;
-}
-
 main {
   margin: 0 auto;
   max-width: 1200px;
-}
-
-div {
-  div {
-    div {
-      div {
-        border: 1px solid blue;
-
-        div {
-          border: 1px solid green;
-
-          div {
-            border: 1px solid yellow;
-          }
-        }
-      }
-    }
-  }
+  width: 100%;
 }
 </style>
 
