@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[#1e2a38]">
     <!--<AppHeader /> -->
       <main>
         <slot />
@@ -30,7 +30,7 @@ div {
   div {
     div {
       div {
-        border: 1px solid blue;
+        border: 0px solid blue;
 
         div {
           border: 1px solid green;
